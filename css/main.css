@@ -1,0 +1,132 @@
+/* COLORS */
+/* BASIC CONFIG */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* STYLES */
+.mobile-menu {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  background-color: #c1272d;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bolder;
+}
+.mobile-menu span {
+  font-weight: lighter;
+}
+.mobile-menu .burger {
+  text-align: right;
+  padding: 5% 5% 15% 5%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.mobile-menu ul {
+  display: none;
+  padding: 0;
+  margin-top: 20%;
+}
+.mobile-menu ul li {
+  margin-bottom: 10%;
+  list-style: none;
+}
+.mobile-menu ul li a {
+  text-decoration: none;
+  color: white;
+  color: #f1a1a1;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0% 20px;
+}
+.mobile-menu ul li a:active {
+  font-weight: bold;
+  color: white;
+}
+header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #c1272d;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: inherit;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+header p {
+  margin-left: 20px;
+}
+header span {
+  font-weight: lighter;
+}
+header .burger {
+  margin: 3% 0% 3% 1%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bolder;
+}
+@media (max-width: 992px) {
+  header .nav-bar {
+    display: none;
+  }
+  header .header-divide1 {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  header .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  header .nav-bar a {
+    text-decoration: none;
+    color: white;
+    color: #f1a1a1;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 0% 20px;
+  }
+  header .nav-bar a:hover {
+    color: white;
+  }
+  header .header-divide1 {
+    display: block;
+    width: 35%;
+  }
+  header .burger {
+    display: none;
+  }
+}
+header .header-divide {
+  height: 10px;
+}
+main {
+  height: 83vh;
+}
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #c1272d;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+footer p {
+  margin: 10px 10px;
+  color: white;
+}
