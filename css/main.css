@@ -65,10 +65,7 @@ header {
   justify-content: space-around;
   text-align: center;
   width: inherit;
-  color: white;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: bolder;
+  color: #c1272d;
   margin: 0 auto;
 }
 header a {
@@ -76,25 +73,37 @@ header a {
   color: #ffffff;
   font-weight: bolder;
   font-size: 22px;
-  margin: 0% 20px;
   margin: 20px 20px;
 }
 header span {
   font-weight: lighter;
+  width: 50px;
 }
 header .burger {
   margin: 3% 0% 3% 1%;
-  color: white;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: bolder;
+  color: #c1272d;
 }
 @media (max-width: 992px) {
+  header {
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
   header .nav-bar {
     display: none;
   }
   header .header-divide1 {
     display: none;
+  }
+  header .home-nav-bar {
+    display: none;
+  }
+  header .home-header-title {
+    display: flex;
+  }
+  header .home-header-divide {
+    width: 5%;
   }
 }
 @media (min-width: 992px) {
@@ -107,15 +116,40 @@ header .burger {
     text-decoration: none;
     color: #f1a1a1;
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 18px;
     margin: 0% 20px;
   }
   header .nav-bar a:hover {
     color: white;
+    font-weight: bold;
+  }
+  header .home-nav-bar {
+    margin: 20px 0;
+  }
+  header .home-nav-bar a {
+    text-decoration: none;
+    color: #f1a1a1;
+    font-weight: lighter;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  header .home-nav-bar a:hover {
+    color: white;
+    font-weight: bold;
+  }
+  header .home-nav-bar a:active {
+    font-weight: bold;
+    color: white;
+  }
+  header .home-header-title {
+    display: none;
   }
   header .header-divide1 {
     display: block;
     width: 35%;
+  }
+  header .home-header-divide {
+    display: none;
   }
   header .burger {
     display: none;
@@ -124,8 +158,39 @@ header .burger {
 header .header-divide {
   height: 10px;
 }
-main {
-  height: 83vh;
+main .home-container {
+  display: flex;
+  justify-content: center;
+  min-height: 74vh;
+  padding: 40px 0px;
+}
+main .home-container img {
+  height: 73vh;
+}
+@media (min-width: 992px) {
+  main .home-container {
+    background: url(../img/background.jpg);
+    background-size: cover;
+  }
+  main .home-container .student_mobile {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  main .home-container {
+    background: url(../img/test.jpg) no-repeat;
+    background-size: 150%;
+    background-origin: content-box;
+    background-position: center;
+  }
+  main .home-container .student_mobile {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  main .home-container .student_desktop {
+    display: none;
+  }
 }
 footer {
   position: relative;
