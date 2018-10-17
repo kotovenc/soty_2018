@@ -20,7 +20,7 @@
 		<div class="sponsors-info">
 			<div class="sponsors-el">
 				<div class="nominations sponsors-logo">
-					<img src="img/sponsors-logo.jpg">
+					<img src="img/nomy-2.png">
 				</div>
 				<div class="contacts-descr">
 					<a>GROUP CAT CAT</a><br>
@@ -38,7 +38,7 @@
 
 			<div class="sponsors-el">
 				<div class="nominations sponsors-logo">
-					<img src="img/sponsors-logo.jpg">
+					<img src="img/nomy-3.png">
 				</div>
 				<div class="contacts-descr">
 					<a>GROUP CAT CAT</a><br>
@@ -56,7 +56,7 @@
 
 			<div class="sponsors-el">
 				<div class="nominations sponsors-logo">
-					<img src="img/sponsors-logo.jpg">
+					<img src="img/nomy-4.png">
 				</div>
 				<div class="contacts-descr">
 					<a>GROUP CAT CAT</a><br>
@@ -74,7 +74,25 @@
 
 			<div class="sponsors-el">
 				<div class="nominations sponsors-logo">
-					<img src="img/sponsors-logo.jpg">
+					<img src="img/nomy-5.png">
+				</div>
+				<div class="contacts-descr">
+					<a>GROUP CAT CAT</a><br>
+					<a>текст текст текст текст текст текст
+					текст текст текст текст текст текст
+					текст текст текст текст текст тексттекст текст текст текст текст текст
+					текст текст текст текст текст текст
+					текст текст текст текст текст тексттекст текст текст текст текст текст
+					текст текст текст текст текст текст
+					текст текст текст текст текст текст
+					</a><br><br>
+				
+				</div>
+			</div>
+
+			<div class="sponsors-el">
+				<div class="nominations sponsors-logo">
+					<img src="img/nomy-6.png">
 				</div>
 				<div class="contacts-descr">
 					<a>GROUP CAT CAT</a><br>
