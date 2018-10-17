@@ -128,6 +128,7 @@ main {
   min-height: 82.3vh;
   /*application*/
   /*blank*/
+  /*Winers*/
 }
 main .application_block_head {
   height: 40vw;
@@ -200,6 +201,7 @@ main .blank_container_center .blank_container {
   width: 70%;
   min-width: 300px;
   /*background: #00f;*/
+  /*Winers*/
 }
 main .blank_container_center .blank_container .blank_blackBox {
   height: 250px;
@@ -223,7 +225,110 @@ main .blank_container_center .blank_container .blank_container_blackCircle .blac
 }
 main .blank_container_center .blank_container .blank_container_blackCircle .blackText {
   max-width: 75%;
-  font-size: 14px;
+  font-size: 18px;
+}
+main .blank_container_center .blank_container .winYear_buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+main .blank_container_center .blank_container .winYear_buttons .button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+  border: 1px solid #c1272d;
+  text-align: center;
+  -ms-user-select: none;
+  moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  font-weight: bolder;
+}
+main .blank_container_center .blank_container .winYear_buttons .button:hover {
+  background: #c1272d;
+  color: white;
+}
+main .blank_container_center .blank_container .oneWinner_container {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+main .blank_container_center .blank_container .oneWinner_container .photoWinner {
+  margin-right: 50px;
+}
+main .blank_container_center .blank_container .oneWinner_container .photoWinner > img {
+  width: 15vw;
+  height: 15vw;
+  min-width: 200px;
+  min-height: 200px;
+}
+main .blank_container_center .blank_container .oneWinner_container .textWinner_container .textWinner_head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-transform: uppercase;
+}
+main .blank_container_center .blank_container .oneWinner_container .textWinner_container .textWinner_head h {
+  font-weight: bolder;
+  font-size: 28px;
+}
+main .blank_container_center .blank_container .oneWinner_container .textWinner_container .textWinner_head .greenBox {
+  width: 200px;
+  margin-left: 10px;
+  text-align: center;
+  background: green;
+  font-size: 18px;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+main .blank_container_center .blank_container .oneWinner_container .textWinner_container .prize {
+  margin-top: 15px;
+}
+main .blank_container_center .blank_container .oneWinner_container .textWinner_container .prize h {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+main .blank_container_center .blank_container .oneWinner_container .textWinner_container .prize p {
+  margin-top: 0;
+}
+@media (max-width: 992px) {
+  main .blank_container_center .blank_container .oneWinner_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .blank_container_center .blank_container .oneWinner_container .photoWinner {
+    margin-right: 0;
+  }
+  main .blank_container_center .blank_container .oneWinner_container .photoWinner > img {
+    width: 300px;
+    height: 300px;
+  }
+  main .blank_container_center .blank_container .oneWinner_container .textWinner_container {
+    font-size: 18px;
+  }
+  main .blank_container_center .blank_container .oneWinner_container .textWinner_container .textWinner_head {
+    flex-direction: column;
+  }
+  main .blank_container_center .blank_container .oneWinner_container .textWinner_container .textWinner_head .greenBox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 110%;
+  }
+  main .blank_container_center .blank_container .oneWinner_container .textWinner_container .prize {
+    margin-top: 15px;
+    text-align: center;
+  }
+  main .blank_container_center .blank_container .oneWinner_container .textWinner_container .prize h {
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  main .blank_container_center .blank_container .oneWinner_container .textWinner_container .prize p {
+    margin-top: 0;
+  }
+}
+main .blank_container_center .blank_container .oneWinner_container:last-child {
+  margin-bottom: 20px;
 }
 footer {
   position: relative;

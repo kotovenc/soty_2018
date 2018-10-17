@@ -222,11 +222,150 @@ main {
 
 	  			.blackText{
 	  				max-width: 75%;
-	  				font-size: 14px;
+	  				font-size: 18px;
 	  			}
 	  		}
+
+	  		/*Winers*/
+			.winYear_buttons{
+				margin-top: 25px;
+
+				display: flex;
+				justify-content: center;
+
+				.button{
+					padding-top: 5px;
+					padding-bottom: 5px;
+
+					width: 100px;
+					border: 1px solid @h-m-background;
+					text-align: center;
+
+					-ms-user-select: none;
+     		    	moz-user-select: none;
+    		        -khtml-user-select: none;
+    		        -webkit-user-select: none;
+    		        font-weight: bolder;
+				}
+
+				.button:hover{
+					background: @h-m-background;
+					color: white;
+				}
+			}
+
+			.oneWinner_container{
+				margin-top: 20px;
+
+				display: flex;
+	  			align-items: flex-start;
+
+
+	  			.photoWinner{
+	  				margin-right: 50px;
+	  			}
+
+				.photoWinner>img{
+					width: 15vw;
+					height: 15vw;
+
+					min-width: 200px;
+					min-height: 200px;
+				}
+
+				.textWinner_container{
+					.textWinner_head{
+						display: flex;
+	  					align-items: center;
+	  					justify-content: flex-start;
+	
+	  					text-transform: uppercase;
+	
+	  					h{
+							font-weight: bolder;
+							font-size: 28px;
+						}
+	
+						.greenBox{
+							width: 200px;
+	
+							margin-left: 10px;
+							text-align: center;
+							background: green;
+	
+							font-size: 18px;
+							color: white;
+	
+							padding-top: 3px;
+							padding-bottom: 3px;
+						}
+					}
+
+	
+					.prize{
+						margin-top: 15px;
+
+						h{
+							text-transform: uppercase;
+							font-size: 18px;
+						}
+
+						p{
+							margin-top: 0;
+						}
+					}
+				}
+
+				@media (max-width: 992px){
+					flex-direction: column;
+					align-items: center;
+
+					.photoWinner{
+	  					margin-right: 0;
+	  				}
+
+					.photoWinner>img{
+						width: 300px;
+						height: 300px;
+					}
+
+					.textWinner_container{
+						font-size: 18px;
+
+						.textWinner_head{
+	  						flex-direction: column;
+
+	  						.greenBox{
+								margin-top: 10px;
+								margin-bottom: 10px;
+								width: 110%;
+							}
+						}
+
+						.prize{
+							margin-top: 15px;
+							text-align: center;
+
+							h{
+								text-transform: uppercase;
+								font-size: 18px;
+							}
+
+							p{
+								margin-top: 0;
+							}
+						}
+					}
+				}
+			}
+
+			.oneWinner_container:last-child{
+				margin-bottom: 20px;
+			}
 	  	}
 	}
+
+	/*Winers*/
 }
 
 footer {
