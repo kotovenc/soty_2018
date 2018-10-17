@@ -116,6 +116,89 @@ header .header-divide {
 }
 main {
   height: 83vh;
+  /*.sponsors-el:first-child {
+		//margin-top: 150px;
+	}*/
+  /*@media (max-width: 992px) {
+		.contacts-info {
+			display: block;
+			align-items: center;
+		}
+	}*/
+}
+main .contacts-head {
+  text-align: center;
+  height: 10vh;
+  font-size: 50px;
+  padding: 70px;
+  background: url(../img/contacts_bg.png) no-repeat;
+  background-size: 100%;
+  color: #c1272d;
+  border: 2px solid #c1272d;
+}
+main .contacts-info {
+  height: 39%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+main .contacts-photo {
+  margin-right: 35px;
+}
+main .contacts-photo > img {
+  width: 15vw;
+  height: 15vw;
+}
+main .contacts-descr {
+  height: 35vh;
+  width: 300px;
+  font-size: 18px;
+}
+main .contacts-descr > a:first-child {
+  font-size: 25px;
+  font-weight: bold;
+}
+main .contacts-phones {
+  height: 160px;
+}
+main .contacts-phones > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+main .contacts-phones > div > img {
+  width: 3vw;
+  height: 3vw;
+  margin-right: 10px;
+}
+main .sponsors-info {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+main .sponsors-el {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+main .sponsors-logo {
+  margin-right: 30px;
+}
+main .sponsors-logo > img {
+  width: 280px;
+  height: 140px;
+}
+main .dashed {
+  border-bottom: 2px dashed #c1272d;
 }
 footer {
   position: relative;
