@@ -125,7 +125,105 @@ header .header-divide {
   height: 10px;
 }
 main {
-  /*height: 83vh;*/
+  min-height: 82.3vh;
+  /*application*/
+  /*blank*/
+}
+main .application_block_head {
+  height: 40vw;
+  min-height: 150px;
+  max-height: 250px;
+  background: url(../img/contacts_bg.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 4px dashed #c1272d;
+}
+main .application_block_head p {
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  color: #c1272d;
+  font-size: 32px;
+}
+main .application_block_text {
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 50px;
+}
+main .application_block_text p {
+  font-size: 18px;
+  margin-bottom: 0;
+  hyphens: auto;
+}
+@media (max-width: 992px) {
+  main .application_block_text {
+    padding-top: 0;
+  }
+  main .application_block_text p {
+    font-size: 16px;
+  }
+}
+main .application_block_button {
+  width: 100%;
+  height: 30vw;
+  min-height: 50px;
+  max-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .application_block_button .application_button {
+  height: 50px;
+  width: 150px;
+  background: #c1272d;
+}
+main .application_block_button .application_button p {
+  margin-top: 4px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+main .application_block_button .application_button:nth-child(2) {
+  margin-left: 10px;
+}
+main .blank_container_center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .blank_container_center .blank_container {
+  width: 70%;
+  min-width: 300px;
+  /*background: #00f;*/
+}
+main .blank_container_center .blank_container .blank_blackBox {
+  height: 250px;
+  margin-top: 30px;
+  background: #000;
+}
+main .blank_container_center .blank_container .blank_container_blackCircle {
+  min-height: 50px;
+  margin-top: 20px;
+  padding-left: 10%;
+  /*background: #00f;*/
+  display: flex;
+  align-items: center;
+}
+main .blank_container_center .blank_container .blank_container_blackCircle .blackCircle {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+main .blank_container_center .blank_container .blank_container_blackCircle .blackText {
+  max-width: 75%;
+  font-size: 14px;
 }
 footer {
   position: relative;
@@ -138,63 +236,4 @@ footer {
 footer p {
   margin: 10px 10px;
   color: white;
-}
-/**/
-.application_block_head {
-  height: 40vw;
-  min-height: 150px;
-  max-height: 250px;
-  background: #000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-bottom: 4px dashed #c1272d;
-}
-.application_block_head p {
-  text-transform: uppercase;
-  font-weight: bolder;
-  text-align: center;
-  color: #c1272d;
-  font-size: 32px;
-}
-.application_block_text {
-  padding-left: 15vw;
-  padding-right: 15vw;
-  padding-top: 50px;
-}
-.application_block_text p {
-  font-size: 18px;
-  margin-bottom: 0;
-  hyphens: auto;
-}
-@media (max-width: 992px) {
-  .application_block_text {
-    padding-top: 0;
-  }
-  .application_block_text p {
-    font-size: 16px;
-  }
-}
-.application_block_button {
-  width: 100%;
-  height: 30vw;
-  min-height: 50px;
-  max-height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.application_block_button .application_button {
-  height: 50px;
-  width: 150px;
-  background: #c1272d;
-}
-.application_block_button .application_button p {
-  margin-top: 4px;
-  text-transform: uppercase;
-  font-weight: bolder;
-  text-align: center;
-  color: white;
-  font-size: 18px;
 }
