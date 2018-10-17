@@ -143,10 +143,9 @@ main .application_block_head {
 }
 main .application_block_head p {
   text-transform: uppercase;
-  font-weight: bolder;
   text-align: center;
   color: #c1272d;
-  font-size: 32px;
+  font-size: 50px;
 }
 main .application_block_text {
   padding-left: 15vw;
