@@ -99,7 +99,6 @@ header {
 }
 
 main {
-	height: 83vh;
 
 	.contacts-head {
 		text-align: center;
@@ -114,6 +113,7 @@ main {
 	}
 
 	.contacts-info {
+		width: auto;
 		height: 39%;
 		display: flex;
 		justify-content: center;
@@ -161,49 +161,73 @@ main {
 	}
 
 	.sponsors-info {
-		//height: 90vh;
+		width: 100%;
 		display: block;
 		justify-content: center;
 		align-items: center;
-		width: 700px;
 		margin: 0 auto;
 		margin-top: 30px;
 	}
 
 	.sponsors-el {
-		display: inline-flex;
+		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 700px;
 		margin: 0 auto;
 		margin-bottom: 100px;
 	}
 
-	/*.sponsors-el:first-child {
-		//margin-top: 150px;
-	}*/
+	.sponsors {
+		width: 40vw;
+	}
 
 	.sponsors-logo {
 		margin-right: 30px;
 	}
 
 	.sponsors-logo>img {
-		width: 280px;
-		height: 140px;
+		width: 20vw;
+		height: 15vw;
 	}
 
-	/*@media (max-width: 992px) {
+	@media (max-width: 992px) {
 		.contacts-info {
-			display: block;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
 			align-items: center;
+			width: 100%;
 		}
-	}*/
+
+		.contacts-photo>img {
+			width: 200px;
+			height: 200px;
+		}
+
+		.sponsors-el {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+		}
+
+		.contacts-head {
+			font-size: 40px;
+		}
+	}
 
 	.dashed {
 		border-bottom: 2px dashed @h-m-background;
 	}
 
+	.nominations>img {
+		width: 250px;
+		height: 250px;
+	}
+
 }
+
 
 footer {
 	position: relative;
@@ -213,6 +237,7 @@ footer {
 	justify-content: flex-start;
 	align-items: center; 
 	text-align: left;
-	p { margin: 10px 10px; color: white;}
 }
+
+footer p { margin: 10px 10px; color: white;}
 

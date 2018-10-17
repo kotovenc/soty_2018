@@ -114,18 +114,6 @@ header .burger {
 header .header-divide {
   height: 10px;
 }
-main {
-  height: 83vh;
-  /*.sponsors-el:first-child {
-		//margin-top: 150px;
-	}*/
-  /*@media (max-width: 992px) {
-		.contacts-info {
-			display: block;
-			align-items: center;
-		}
-	}*/
-}
 main .contacts-head {
   text-align: center;
   height: 10vh;
@@ -137,6 +125,7 @@ main .contacts-head {
   border: 2px solid #c1272d;
 }
 main .contacts-info {
+  width: auto;
   height: 39%;
   display: flex;
   justify-content: center;
@@ -175,30 +164,59 @@ main .contacts-phones > div > img {
   margin-right: 10px;
 }
 main .sponsors-info {
+  width: 100%;
   display: block;
   justify-content: center;
   align-items: center;
-  width: 700px;
   margin: 0 auto;
   margin-top: 30px;
 }
 main .sponsors-el {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 700px;
   margin: 0 auto;
   margin-bottom: 100px;
+}
+main .sponsors {
+  width: 40vw;
 }
 main .sponsors-logo {
   margin-right: 30px;
 }
 main .sponsors-logo > img {
-  width: 280px;
-  height: 140px;
+  width: 20vw;
+  height: 15vw;
+}
+@media (max-width: 992px) {
+  main .contacts-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  main .contacts-photo > img {
+    width: 200px;
+    height: 200px;
+  }
+  main .sponsors-el {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  main .contacts-head {
+    font-size: 40px;
+  }
 }
 main .dashed {
   border-bottom: 2px dashed #c1272d;
+}
+main .nominations > img {
+  width: 250px;
+  height: 250px;
 }
 footer {
   position: relative;
