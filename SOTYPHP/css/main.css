@@ -333,6 +333,11 @@ main .application_block_head p {
   color: #c1272d;
   font-size: 50px;
 }
+@media (max-width: 992px) {
+  main .application_block_head p {
+    font-size: 40px;
+  }
+}
 main .application_block_text {
   padding-left: 15vw;
   padding-right: 15vw;
@@ -428,6 +433,7 @@ main .blank_container_center .blank_container .winYear_buttons .button {
   -khtml-user-select: none;
   -webkit-user-select: none;
   font-weight: bolder;
+  color: black;
 }
 main .blank_container_center .blank_container .winYear_buttons .button:hover {
   background: #c1272d;
@@ -510,6 +516,12 @@ main .blank_container_center .blank_container .oneWinner_container .textWinner_c
   }
   main .blank_container_center .blank_container .oneWinner_container .textWinner_container .prize p {
     margin-top: 0;
+  }
+}
+@media (max-width: 992px) and (max-width: 350px) {
+  main .blank_container_center .blank_container .oneWinner_container .textWinner_container .textWinner_head .greenBox {
+    width: 100%;
+    margin-left: -5px;
   }
 }
 main .blank_container_center .blank_container .oneWinner_container:last-child {
