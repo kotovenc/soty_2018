@@ -46,11 +46,15 @@
 		
 		<div class="application_block_button">
 			<div class="application_button">
-				<p>Бланк<br>эссе</p>
+				<a href="#" attr="download" style="text-decoration: none;">
+					<p>Бланк<br>эссе</p>
+				</a>
 			</div>
 
 			<div class="application_button">
-				<p>Скачать анкету</p>
+				<a href="#" attr="download" style="text-decoration: none;">
+					<p>Скачать анкету</p>
+				</a>
 			</div>
 		</div>
 		<!--  -->

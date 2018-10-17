@@ -29,7 +29,9 @@
 		</div>
 		<div class="application_block_button">
 			<div class="application_button">
-				<p>СКАЧАТЬ ПОЛОЖЕНИЕ</p>
+				<a href="#" attr="download" style="text-decoration: none;">
+					<p>СКАЧАТЬ ПОЛОЖЕНИЕ</p>
+				</a>
 			</div>
 		</div>
 		<!--  -->
